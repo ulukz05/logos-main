@@ -1,0 +1,24 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  list-style: none;
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  font-family: 'Inter', sans-serif;
+}
+
+@import'./layout/header.scss';
+@import'./layout/nav.scss';
+@import'./layout/footer.scss';
