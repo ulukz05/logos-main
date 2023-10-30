@@ -1,0 +1,24 @@
+.button-conteiner{
+    text-align: center; 
+}
+
+.full-width-button{
+    width: 555px; 
+    height: 52px;
+    padding: 10px;
+    background-color: #504B4A; 
+    color: #CFCFCF; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.logo{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 100% */
+    letter-spacing: 3.75px;
+}
