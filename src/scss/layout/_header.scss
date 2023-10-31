@@ -1,0 +1,142 @@
+.header{
+    padding: 2.375rem 6.125rem 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 1.875rem;
+  }
+  .header-left{
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+  }
+  .logo{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+    gap: 12.5rem;
+    padding: .9375rem;
+    border-radius: 10px;
+    background: #504B4A;
+  }
+  .input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  svg{
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+  .svg{
+    width: 15px;
+    height: 15px;
+  }
+  .svg-bg{
+    display: flex;
+    align-items: center;
+    padding: .625rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+  }
+  .header-right{
+    display: flex;
+    gap: .625rem;
+  }
+  .contact{
+    span{
+      color: #CFCFCF;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    p{
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    gap: 1.5625rem;
+    p{
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  .profil{
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+  }
+  .profile-line{
+    border: 1px solid #635C5A;
+    height: 52px;
+  }
+  .basket{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+    padding:7px 24px;
+  
+    p{
+      margin-right: 20px;
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  .basket-line{
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    height: 38px;
+    margin-right: 12px;
+  }
+  .sum{
+    background: #fff;
+    padding: 5px 9px 5px 8px;
+    border-radius: 20px;
+    p{
+      color: #403C3B;
+      font-size: 12px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+  // nav-line
+  
+  .nav-line{
+    border: 2px solid rgba(255, 255, 255, 0.020);
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8125rem 5.5625rem 1.8125rem 5rem ;
+    li{
+      font-size: 18px;
+      font-weight: 400;
+      color: #CFCFCF;
+    }
+  }
+  .nav-collapseline{
+    border: 3px solid #618967;
+  }
+  .nav-collapse{
+    display: flex;
+    padding: 50px 113px;
+    gap: 20px;
+    h2{
+      color: #FFF;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 32px;
+    }
+  }
+  .nav-linetop{
+    border: 2px solid rgba(255, 255, 255, 0.062);
+  }
