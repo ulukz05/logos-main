@@ -1,0 +1,37 @@
+.stocks{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+  color: #FFF;
+}
+.stocks-row{
+  display: flex;
+  gap: 20px;
+}
+.stocks-card{
+  border-radius: 10px;
+  background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+  img{
+    width: 100%;
+  }
+}
+.stocks-text{
+  padding: 25px;
+  h4{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  p{
+  color: #A6A7AB;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  }
+  span{
+  color: #6FA076;
+  font-size: 14px;
+  font-weight: 400;
+  }
+}

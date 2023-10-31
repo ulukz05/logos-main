@@ -1,0 +1,54 @@
+.delivery{
+  padding: 2.5rem 5.625rem;
+}
+.accordion{
+  display: flex;
+  gap: 1.25rem;
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+  // background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+  p{
+    padding: 1rem;
+  }
+}
+.tab input:checked~.tab__content {
+  max-height: 10rem;
+}
+.tab__label{
+  display: flex;
+  color: white;
+  background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: .625rem;
+}
+.tab__label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
+.tab input:checked+.tab__label::after {
+  transform: rotate(270deg);
+}
+.chart{
+  display: flex;
+  padding: 1.875rem 0;
+  gap: 6.25rem;
+}

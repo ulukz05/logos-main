@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  list-style: none;
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  font-family: Gilroy;
+  font-family: "Inter", sans-serif;
+}
+
+.common-bg {
+  background: linear-gradient(0deg, #211F20 0%, #44403F 100%);
+}
+
+.common-bg {
+  background: linear-gradient(0deg, #211F20 0%, #44403F 100%);
+}
+
+.stocks {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px;
+  color: #FFF;
+}
+
+.stocks-row {
+  display: flex;
+  gap: 20px;
+}
+
+.stocks-card {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+}
+.stocks-card img {
+  width: 100%;
+}
+
+.stocks-text {
+  padding: 25px;
+}
+.stocks-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.stocks-text p {
+  color: #A6A7AB;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.stocks-text span {
+  color: #6FA076;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.delivery {
+  padding: 2.5rem 5.625rem;
+}
+
+.accordion {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+.tab__content p {
+  padding: 1rem;
+}
+
+.tab input:checked ~ .tab__content {
+  max-height: 10rem;
+}
+
+.tab__label {
+  display: flex;
+  color: white;
+  background: linear-gradient(115deg, #618967 5.11%, #72A479 94%);
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.625rem;
+}
+
+.tab__label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
+
+.tab input:checked + .tab__label::after {
+  transform: rotate(270deg);
+}
+
+.chart {
+  display: flex;
+  padding: 1.875rem 0;
+  gap: 6.25rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -9,6 +9,10 @@
   outline: none;
   box-sizing: border-box;
 }
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 .container {
   max-width: 80rem;
@@ -16,9 +20,17 @@
 }
 
 .wrapper {
+  font-family: Gilroy;
   font-family: 'Inter', sans-serif;
+}
+
+// надо закинуть в header
+.common-bg {
+  background: linear-gradient(0deg, #211F20 0%, #44403F 100%);
 }
 
 @import'./layout/header.scss';
 @import'./layout/nav.scss';
 @import'./layout/footer.scss';
+@import'./include/stocks.scss';
+@import'./include/delivery.scss';
